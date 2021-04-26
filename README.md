@@ -13,7 +13,7 @@ You can play along with other things too if you want!
 
 ## How to use:
 
-1. Download the theme either from here or throught CLI (git clone command).
+1. Download the theme either from here or through CLI (git clone command).
 2. Either choose any wallpaper from the given sets, or copy you images into the folder **gnome-shell**.
 3. Edit the last few lines of **gnome-shell.css** file by changing the URL of the image to be used as the Background (by deafult its set to one of the pre set images)
 
