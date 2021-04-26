@@ -2202,7 +2202,6 @@ StScrollBar {
 
 #overviewGroup {
 
-background-image: url("/usr/share/themes/Adwance/....jpg");
+background-image: url("/usr/share/themes/Adwance/gnome-shell....jpg");
 background-size: cover;
-background-color: rgba(45, 45, 45, 0.76);
 }
