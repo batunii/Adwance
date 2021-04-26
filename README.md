@@ -1,5 +1,5 @@
 # Adwance
-A Fork of Adwaita Gnome Shell Theme with some chnages to make it look mordern.
+A Fork of Adwaita Gnome Shell Theme with some changes to make it look modern.
 I have extracted the official Gnome-Shell.css from the gnome-shell-theme.gresources file found in /usr/share/gnome-shell using the 'gresource extract' command. I then edited few line of CSS file and repackaged it as a new shell theme and then apllied it.
 The changes I made are :
 1. Reduce the size of top panel to : 1.7e
