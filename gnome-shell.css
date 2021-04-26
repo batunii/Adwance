@@ -1,5 +1,5 @@
-/* This stylesheet is generated, DO NOT EDIT */
-/* Copyright 2009, 2015 Red Hat, Inc.
+
+/* 
  *
  * Portions adapted from Mx's data/style/default.css
  *   Copyright 2009 Intel Corporation
@@ -1202,7 +1202,7 @@ StScrollBar {
 #panel {
   background-color: #000;
   font-weight: bold;
-  height: 2.2em;
+  height: 1.7em;
   font-feature-settings: "tnum";
   transition-duration: 250ms; }
   #panel.unlock-screen, #panel.login-screen, #panel:overview {
@@ -1329,14 +1329,14 @@ StScrollBar {
   padding: 7px 9px;
   border-radius: 18px;
   color: rgba(238, 238, 236, 0.7);
-  background-color: #353535;
-  border-color: #202020;
+  background-color: rgba(45, 45, 45, 0.7);
+  border-color: rgba(45, 45, 45, 0.7);
   margin-top: 12px;
   margin-bottom: 6px; }
   
   .search-entry:hover {
-    background-color: #424242;
-    border-color: #282828;
+    background-color: rgba(36, 36, 36, 0.7);
+    border-color: rgba(36, 36, 36, 0.7);
     color: #fafaf9; }
   
   .search-entry:focus {
@@ -1418,7 +1418,7 @@ StScrollBar {
     padding: 5px; }
 
 .dash-background {
-  background-color: #3b3b3b;
+  background-color: rgba(45, 45, 45, 0.5);
   margin-bottom: 16px;
   padding: 10px;
   border-radius: 24px; }
@@ -1503,12 +1503,12 @@ StScrollBar {
 
 /* App Folders */
 .app-well-app.app-folder {
-  background-color: #202020;
+  background-color: rgba(45, 45, 45, 0.76);
   border-radius: 12px; }
 
 .app-folder-dialog {
   border-radius: 24px;
-  background-color: #3b3b3b;
+  background-color: rgba(45, 45, 45, 0.76);
   padding: 12px 0px 12px 0px; }
   .app-folder-dialog .folder-name-container {
     padding: 24px 36px 0;
@@ -2201,3 +2201,10 @@ StScrollBar {
     background-color: rgba(53, 53, 53, 0.5); }
   #unlockDialogNotifications StButton#vhandle:active, #unlockDialogNotifications StButton#hhandle:active {
     background-color: rgba(27, 106, 203, 0.5); }
+
+#overviewGroup {
+
+background-image: url("/usr/share/themes/Adwance/....jpg");
+background-size: cover;
+background-color: rgba(45, 45, 45, 0.76);
+}
